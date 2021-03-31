@@ -1,0 +1,11 @@
+CREATE TABLE FIBU.TGEHALT
+(
+	ID INTEGER NOT NULL,
+	Betrag DECIMAL(7,2) NOT NULL,
+	Zweck VARCHAR(100),
+	Zahlungsart VARCHAR(50),
+	Datum DATE,
+	Gehaltsmonat VARCHAR(20),
+	Jahr INTEGER,
+	PRIMARY KEY (ID)
+);
