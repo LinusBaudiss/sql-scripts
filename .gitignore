@@ -1,2 +1,2 @@
-./fibu/insert*
-./logbook/insert*
+fibu/insertdata.sql
+logbook/insertdata.sql
